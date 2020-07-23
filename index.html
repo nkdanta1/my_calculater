@@ -1,0 +1,133 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <style>
+        .card-body {
+            padding: 0.5rem;
+        }
+    </style>
+    <title>MY Calculater</title>
+</head>
+
+<body>
+  <h2 class="text-center">
+      My Calculater
+  </h2>
+    <div class="d-flex justify-content-center">
+    <div class="card">
+        <div class="card-body">
+    <div class="d-flex justify-content-center">
+        <div class="form-group">
+            <input type="text" class="form-control" id="ep" />
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('1')">1</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('2')">2</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('3')">3</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-warning text-white" onclick="dis('+')">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('4')">4</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('5')">5</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('6')">6</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-warning text-white" onclick="dis('-')">-</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('7')">7</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('8')">8</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('9')">9</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-warning text-white" onclick="dis('*')">*</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-danger" onclick="clr()">C</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" onclick="dis('0')">0</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-success" onclick="solve()">=</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <button type="button" class="btn btn-warning text-white" onclick="dis('/')">/</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
